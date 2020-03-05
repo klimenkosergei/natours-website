@@ -19,11 +19,11 @@ gulp.task('sass', () => {
 });
 
 gulp.task('assets', () => {
-  return gulp.src('public/img/*').pipe(gulp.dest('dist/img'));
+  return gulp.src('public/natours/img/*').pipe(gulp.dest('dist/img'));
 });
 
 gulp.task('fonts', () => {
-  return gulp.src('public/css/**/*').pipe(gulp.dest('dist/css'));
+  return gulp.src('public/natours/css/**/*').pipe(gulp.dest('dist/css'));
 });
 
 gulp.task('html', () => {
